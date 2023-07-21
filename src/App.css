@@ -1,38 +1,68 @@
-.App {
+body{
+  height: 100%;
+  margin-top: 10%;
+  padding: 0;
+  background-size: cover;
+  font-family: Georgia, monospace;
+  background: linear-gradient(to bottom right, #FFC0CB, #87CEFA) no-repeat fixed;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto ;
+  padding: 20px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background:linear-gradient(to bottom right, #3498db, #8e44ad);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
   text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-area {
+  width: 97%;
+  height: 200px;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  resize: vertical;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.get-result-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 22px;
+  color: #130a01;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.get-result-btn:hover {
+  background: linear-gradient(to bottom right, #FFC0CB, #87CEFA) no-repeat fixed;
+}
+
+.result-text {
+  color: #ffffff;
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .text-area {
+    font-size: 14px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .result-text {
+    font-size: 20px;
   }
 }
