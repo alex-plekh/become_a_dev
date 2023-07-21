@@ -1,16 +1,12 @@
-<!-- include-file: install-nodejs.md -->
 <!DOCTYPE html>
 <html>
-<head>
-  <title>UniQText - Find the First Unique Character in Text</title>
-</head>
 <body>
   <h1>UniQText - Find the First Unique Character in Text</h1>
   <h2>How to Use</h2>
   <ol>
     <li>Clone the repository or download the source code.</li>
     <li>Open the project folder in your code editor.</li>
-    <li>Check the installed nodejs or install  it by following the instructions [Install Nodejs](install-nodejs.md) </li>
+    <li>Check the installed nodejs or install  it by following the instructions [Install Nodejs](./install-nodejs.md) </li>
 </ol>
   <pre><code class="language-bash">node --version</code></pre>
   <ol start="4">
