@@ -6,7 +6,7 @@
   <ol>
     <li>Clone the repository or download the source code.</li>
     <li>Open the project folder in your code editor.</li>
-    <li>Check the installed nodejs or install  it by following the instructions [Install Nodejs](./install-nodejs.md) </li>
+    <li>Check the installed nodejs or install  it by following the instructions <a href="https://github.com/alex-plekh/become_a_dev/blob/main/install-nodejs.md">Install Nodejs</a></li>
 </ol>
   <pre><code class="language-bash">node --version</code></pre>
   <ol start="4">

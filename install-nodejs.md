@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Installing Node.js</title>
-</head>
 <body>
   <h1>Installing Node.js</h1>
 
